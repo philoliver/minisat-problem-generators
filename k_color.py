@@ -26,8 +26,8 @@ def read_file(file):
 def run():
   args = make_args_parser()
   
-  if args.action not in ["generate", "interprete"]:
-    raise Exception("Action has to be either 'generate' or 'interprete'.")
+  if args.action not in ["generate", "interpret"]:
+    raise Exception("Action has to be either 'generate' or 'interpret'.")
     
   else:
     problem = KColorProblem()
